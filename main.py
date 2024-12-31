@@ -4,8 +4,8 @@ import datetime
 import schedule
 import time
 
-source_dir = "C:/Users/Saksham/Pictures/PyFile"
-destination_dir = "C:/Users/Saksham/Desktop/BackUp"
+source_dir = "C:/Users/Saksham/Pictures/PyFile" # enter the folder path which you want to backup
+destination_dir = "C:/Users/Saksham/Desktop/BackUp" # enter the folder path where you want to backup
 
 def copy_folder_to_destination(source, dest):
     today = datetime.date.today()
